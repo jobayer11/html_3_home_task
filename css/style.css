@@ -1,0 +1,36 @@
+h3{
+	color: red;
+}
+h1{
+	color: orange;
+}
+.head1{
+	color: brown;
+}
+#h1{
+	color: gray;
+}
+a{
+	font-size: 50px;
+}
+a:hover{
+	background-color: #6000FC;
+	color: white;
+}
+span{
+	color:red;
+	font-weight: bold;
+}
+span:hover{
+	color: white;
+}
+.table_file{
+	background-color: #D2B4DE;
+	color: white;
+}
+.table_span{
+	color: #4A235A;
+}
+.html_span{
+	color: rgb(86, 101, 115);
+}

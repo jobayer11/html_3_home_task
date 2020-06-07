@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home_Task | HTML_Class_3</title>
+	<base href="base/" target="_blank">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		table,th,td{
+			border: 1px solid black;
+		}
+		.div_1{
+			border: 5px outset red;
+			background-color: lightblue;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>HTML element reference practice</h1>
+	<h2>use of a element</h2>
+	<a href="https://www.w3schools.com/">w3school</a>
+	<h2>use of abbbr element</h2>
+	<abbr title="World Health Orgenization">WHO</abbr>
+	<h2>use of address element</h2>
+	<address>
+		written by: <a href="#">Jon Doe</a><br>
+		visit us at:<br>
+		<a href="#">www.example.com</a><br>
+		Box 564, Disneyland<br>
+		USA
+	</address>
+	<h2>use of aside element</h2>
+	<aside>
+		<h4>Lorem ipsum dolor sit amet.</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet odio at enim feugiat lobortis vitae eu ante. In id convallis sem. Nam iaculis velit neque, quis tristique dui tempor ac.</p>
+	</aside>
+	<h2>use of audio element</h2>
+	<audio controls>
+		<source src="media/amar_shonar_bangla.ogg" type="audio/ogg">
+		your browser doesn't support the audio content
+	</audio>
+	<h2>use of b element</h2>
+	<p>this is normal text and <b>this is bold text</b></p>
+	<h2>use of base tag</h2>
+	<a href="image/tree_with_brunch.jpg">image</a>
+	<h2>use of bdi element</h2>
+	<ul>
+ 	<li>buyer <bdi>hrefs</bdi>: 60 points</li>
+ 	<li>buyer <bdi>jdoe</bdi>: 80 points</li>
+ 	<li>buyer <bdi>إهناك  </bdi>: 90 points</li>
+	</ul>
+	<h2>use of bdo element</h2>
+	<p>This paragraph will go left_to_right</p>
+	<p><bdo dir="rtl">This paragraph will go rigt-to-left.</bdo></p>
+	<h2>use of blockquote element</h2>
+	<p>Here is a quote from lorem website</p>
+	<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a laoreet augue. Ut molestie libero ligula, tincidunt tincidunt felis elementum eget. In pellentesque malesuada neque ac sodales. Maecenas eros libero, fermentum id elit et, porta ornare ipsum. In commodo magna at mi pulvinar efficitur. Cras ut augue quis ipsum iaculis rhoncus. Praesent lacinia auctor dui quis accumsan. Maecenas nisl lacus, fringilla in tellus ac, aliquet sollicitudin mi. Proin fermentum diam turpis, ut gravida ante ultrices non. Sed lacinia ut justo et tincidunt. In bibendum scelerisque metus sagittis gravida. Maecenas non eros tempus, pretium nibh non, placerat ante.
+	</blockquote>
+	<h2>use of body element</h2>
+	<body>This text and the hole task is written on the body</body>
+	<h2>use of br tag</h2>
+	This line is without br tag <br> and this line is with br tag
+	<h2>use of button element</h2>
+	<button type="button">button1</button>
+	<h2>use of canvas element</h2>
+	<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+	<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(0, 0, 80, 100);
+	</script>
+	<h2>use of caption element</h2>
+	<caption>this is a caption</caption>
+	<h2>use of cite element</h2>
+	<p><cite>The scream</cite> by Edward Munch. Painted in 1893.</p>
+	<h2>use of code element</h2>
+	<p>The HTML <code>button</code> tag defines a clickable button.</p>
+	<p>The css <code>background-color</code> property defines the background color of an element.</p>
+	<h2>use of col element and colgroup tag</h2>
+	<table>
+		<colgroup>
+			<col span="2" style="background-color:red">
+			<col style="background-color: yellow">
+		</colgroup>
+		<tr>
+			<th>serial</th>
+			<th>title</th>
+			<th>price</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>HTML</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>CSS</td>
+			<td>$49</td>
+		</tr>
+	</table>
+	<h2>use of data element</h2>
+	<p>The following example displays product names but also associates each name with a product number</p>
+	<ul>
+		<li><data value="21053">Cherry Tomato</data></li>
+		<li><data value="21054">Beef Tomato</data></li>
+		<li><data value="21055">Snack Tomato</data></li>
+	</ul>
+	<h2>use of datalist element</h2>
+	<form method="get">
+	<label>Choose your browser from the list:</label>
+	<input list="browsers" name="browser" id="browser">
+	<datalist id="browsers">
+		<option value="Edge">
+		<option value="firefox">
+		<option value="Chrome">
+		<option value="Opera">
+		<option value="Safari">
+	</datalist>
+	<input type="submit">
+	</form>
+	<h2>use of dl,dd and dt elements</h2>
+	<p>These three elements are used to create a description list:</p>
+	<dl>
+		<dt>coffee</dt>
+		<dd>Black hot drink</dd>
+		<dt>milk</dt>
+		<dd>White cold drink</dd>
+	</dl>
+	<h2>use of del and ins element</h2>
+	<p>My favorite color is <del>blue</del> <ins>black!</ins></p>
+	<h2>use of details element</h2>
+	<details>
+		<summary>Lorem Ipsum</summary>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus eget leo et facilisis. Suspendisse eu vestibulum ligula. Etiam malesuada libero vitae sem aliquam, vitae iaculis neque tincidunt. Maecenas rhoncus hendrerit vehicula. Cras ultrices porta mattis. Fusce semper pulvinar diam. Curabitur tincidunt posuere erat, imperdiet lobortis elit accumsan non. Ut quis justo condimentum, rutrum sapien nec, egestas justo. Praesent est felis, dictum sed ex pharetra, blandit sagittis purus. In auctor dolor quis felis hendrerit interdum ut quis eros. Fusce sit amet orci vitae dolor blandit scelerisque. Suspendisse volutpat purus et ex consectetur, aliquam sagittis dolor faucibus. Aenean augue purus, tempor laoreet placerat at, feugiat id tortor. Pellentesque urna libero, faucibus rutrum aliquam quis, sollicitudin vel diam. Nullam sollicitudin turpis urna, quis malesuada dui vestibulum quis.</p>
+	</details>
+	<h2>use of dfn element</h2>
+	<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+	<h2>use of dialog element</h2>
+	<p>This is some text</p>
+	<p>This is some text</p>
+	<dialog open>This is an open dialog window.</dialog>
+	<p>This is some text</p>
+	<p>This is some text</p>
+	<h2>The div element</h2>
+	<div class="div_1">
+		<h3>This is a heading in a div element</h3>
+		<p>This is some text in a div element.</p>
+	</div>
+	<p>This is some text outside the div element.</p>
+	<h2>use of em element</h2>
+	<p>You <em>have</em> to go!</p>
+	<p>We <em>cannot</em> live here.</p>
+	<h2>use of embed tag</h2>
+	<embed type="image/jpg" src="image/tree_with_brunch.jpg" width="400">
+	<h2>use of fieldset element</h2>
+	<form>
+		<fieldset>
+			<legend>Personal</legend>
+			<label for="fname">First name:</label>
+			<input type="text" name="fname"><br><br>
+			<label for="lname">Last name:</label>
+			<input type="text" name="lname"><br><br>
+			<label for="email">Email:</label>
+			<input type="email" name="email"><br><br>
+			<label for="birthdate">Birthdate</label>
+			<input type="date" name="birthdate"><br><br>
+			<input type="submit" value="submit">
+		</fieldset>
+	</form>
+	<h2>use of figure and figcaption element</h2>
+	<figure>
+		<img src="image/tree_with_brunch.jpg" alt="tree_with_brunch" width="200">
+		<figcaption>Image with brunch</figcaption>
+	</figure>
+	<h2>use the footer elemet</h2>
+	<footer>
+		<p>Author: Admin <br>
+		<a href="mailto:admin@example.com">admin@example.coms</a></p>
+	</footer>
+	<h2>use of form element with lable element and input tag</h2>
+	<form>
+		<label for="fname">First name:</label>
+		<input type="text" name="fname" id="fname"><br><br>
+		<label for="lname">Last name:</label>
+		<input type="text" name="lname" id="lname"><br><br>
+		<input type="submit" value="submit">
+	</form>
+	<h2>use of h1-h6 element</h2>
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+	<h5>This is heading 5</h5>
+	<h6>This is heading 6</h6>
+	<h2>use of header element</h2>
+	<article>
+		<header>
+			<h3>a header here</h3>
+			<p>posted by admin</p>
+			<p>some additonal information here</p>
+		</header>
+		<p>Lorem ipsum dolor sit amet....</p>
+	</article>
+	<h2>use of hr tag</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus eget leo et facilisis. Suspendisse eu vestibulum ligula. Etiam malesuada libero vitae sem aliquam, vitae iaculis neque tincidunt. Maecenas rhoncus hendrerit vehicula. Cras ultrices porta mattis. Fusce semper pulvinar diam. Curabitur tincidunt posuere erat, imperdiet lobortis elit accumsan non. Ut quis justo condimentum, rutrum sapien nec, egestas justo. Praesent est felis, dictum sed ex pharetra, blandit sagittis purus. In auctor dolor quis felis hendrerit interdum ut quis eros. Fusce sit amet orci vitae dolor blandit scelerisque. Suspendisse volutpat purus et ex consectetur, aliquam sagittis dolor faucibus. Aenean augue purus, tempor laoreet placerat at, feugiat id tortor. Pellentesque urna libero, faucibus rutrum aliquam quis, sollicitudin vel diam. Nullam sollicitudin turpis urna, quis malesuada dui vestibulum quis.
+	</p>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus eget leo et facilisis. Suspendisse eu vestibulum ligula. Etiam malesuada libero vitae sem aliquam, vitae iaculis neque tincidunt. Maecenas rhoncus hendrerit vehicula. Cras ultrices porta mattis. Fusce semper pulvinar diam. Curabitur tincidunt posuere erat, imperdiet lobortis elit accumsan non. Ut quis justo condimentum, rutrum sapien nec, egestas justo. Praesent est felis, dictum sed ex pharetra, blandit sagittis purus. In auctor dolor quis felis hendrerit interdum ut quis eros. Fusce sit amet orci vitae dolor blandit scelerisque. Suspendisse volutpat purus et ex consectetur, aliquam sagittis dolor faucibus. Aenean augue purus, tempor laoreet placerat at, feugiat id tortor. Pellentesque urna libero, faucibus rutrum aliquam quis, sollicitudin vel diam. Nullam sollicitudin turpis urna, quis malesuada dui vestibulum quis.
+	</p>
+	<h2>use of i element</h2>
+	<p>Lorem ipsum <i>dolor sit amet,</i> consectetur adipiscing elit. Aliquam luctus eget leo et facilisis.</p>
+	<h2>use of the iframe element</h2>
+	<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+	<h2>use of img tag</h2>
+	<img src="image/tree_with_brunch.jpg" alt="tree_with_brunch" width="200">
+	<h2>use of ins element</h2>
+	<p>my favorite color is <del>white</del> <ins>black!</ins></p>
+</body>
+</html>
